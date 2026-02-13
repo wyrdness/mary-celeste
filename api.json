@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/mary-celeste",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "mary-celeste",
+    "name": "The Mary Celeste: The Abandoned Ship Mystery",
+    "aliases": [],
+    "category": "3:_MOST_LIKELY_EXPLANATION",
+    "subcategory": "and crew character.",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "The Mary Celeste is one of maritime history's most enduring mysteries.",
+      "full": "The Mary Celeste is one of maritime history's most enduring mysteries. On December 4, 1872, the British brigantine Dei Gratia discovered the American merchant ship Mary Celeste adrift in the Atlantic Ocean, east of the Azores. The ship was in seaworthy condition with its cargo largely intact, but completely abandoned—the captain, his wife and young daughter, and seven crew members had vanished without a trace. No signs of struggle, piracy, or violence were found. The ship's lifeboat was missing, suggesting the crew deliberately abandoned ship, but why they would leave a perfectly seaworthy vessel remains a compelling question. The mystery has generated over 150 years of theories ranging from plausible to fantastical: mutiny, piracy, sea monsters, whirlpools, waterspouts, alcohol fumes, underwater earthquakes, insurance fraud, and even alien abduction. Modern analysis, combining historical maritime expertise, contemporary scientific understanding, and forensic examination of available evidence, has narrowed the most likely explanations to natural phenomena that could have caused the crew to abandon ship in panic, believing it was in imminent danger when it actually was not. The Mary Celeste mystery has been sensationalized and embellished over decades, with fictional accounts often presented as fact. This documentation aims to separate historical evidence from mythology, examine credible theories with supporting evidence, and explain why certain popular theories can be dismissed. While absolute certainty about what happened is impossible given the absence of witnesses or remains, we can identify the most probable scenarios based on evidence, maritime expertise, and scientific principles."
+    },
+    "etymology": {
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "3:_MOST_LIKELY_EXPLANATION",
+      "type": "and crew character.",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
