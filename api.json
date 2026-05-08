@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/mary-celeste",
     "maintainers": [
       {
@@ -16,111 +16,306 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "mary-celeste",
-    "name": "The Mary Celeste: The Abandoned Ship Mystery",
-    "aliases": [],
-    "category": "3:_MOST_LIKELY_EXPLANATION",
-    "subcategory": "and crew character.",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Mary Celeste",
+    "aliases": [
+      { "name": "Marie Celeste", "language": "English", "meaning": "Misspelling popularised by Arthur Conan Doyle's 1884 short story 'J. Habakuk Jephson's Statement'" },
+      { "name": "Amazon", "language": "English", "meaning": "Original name of the brigantine before her 1868 sale and renaming" }
     ],
-    "status": "documented",
+    "category": "ANOMALY",
+    "subcategory": "Maritime mystery (ghost ship)",
+    "tags": [
+      "ghost-ship",
+      "maritime",
+      "atlantic",
+      "1872",
+      "abandoned-vessel",
+      "azores",
+      "unsolved"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The Mary Celeste is one of maritime history's most enduring mysteries.",
-      "full": "The Mary Celeste is one of maritime history's most enduring mysteries. On December 4, 1872, the British brigantine Dei Gratia discovered the American merchant ship Mary Celeste adrift in the Atlantic Ocean, east of the Azores. The ship was in seaworthy condition with its cargo largely intact, but completely abandoned—the captain, his wife and young daughter, and seven crew members had vanished without a trace. No signs of struggle, piracy, or violence were found. The ship's lifeboat was missing, suggesting the crew deliberately abandoned ship, but why they would leave a perfectly seaworthy vessel remains a compelling question. The mystery has generated over 150 years of theories ranging from plausible to fantastical: mutiny, piracy, sea monsters, whirlpools, waterspouts, alcohol fumes, underwater earthquakes, insurance fraud, and even alien abduction. Modern analysis, combining historical maritime expertise, contemporary scientific understanding, and forensic examination of available evidence, has narrowed the most likely explanations to natural phenomena that could have caused the crew to abandon ship in panic, believing it was in imminent danger when it actually was not. The Mary Celeste mystery has been sensationalized and embellished over decades, with fictional accounts often presented as fact. This documentation aims to separate historical evidence from mythology, examine credible theories with supporting evidence, and explain why certain popular theories can be dismissed. While absolute certainty about what happened is impossible given the absence of witnesses or remains, we can identify the most probable scenarios based on evidence, maritime expertise, and scientific principles."
+      "summary": "An American brigantine found drifting in good order but completely abandoned in the Atlantic east of the Azores on 4 December 1872; her ten-person company — Captain Benjamin Briggs, his wife and infant daughter, and seven crew — were never seen again.",
+      "full": "The Mary Celeste was a 282-ton American merchant brigantine discovered drifting between the Azores and Portugal on 4 December 1872 by the Canadian brigantine Dei Gratia under Captain David Morehouse. The ship was largely seaworthy under partial sail with cargo (1,701 barrels of denatured alcohol bound for Genoa) intact, but her single lifeboat was missing and her crew gone. The last log entry was dated 25 November 1872. The case was investigated at salvage hearings in Gibraltar from 17 December 1872 by Attorney General Frederick Solly-Flood, whose suspicions of foul play were never substantiated. Subsequent theories include a panicked abandonment due to fears of an alcohol-vapour explosion, a misread sounding of the pumps suggesting the ship was sinking, a waterspout, and seaquake-induced cargo shift. The vessel — built in 1861 at Spencer's Island, Nova Scotia, originally as the Amazon — was deliberately wrecked in 1885 off Haiti by Captain Gilman C. Parker as part of an insurance fraud. Arthur Conan Doyle's fictional 1884 short story 'J. Habakuk Jephson's Statement' is largely responsible for the modern legend, including the spelling 'Marie Celeste'."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The brigantine was launched in 1861 at Spencer's Island, Nova Scotia, as the Amazon. After grounding, salvage and resale to American owners in 1868 she was re-registered under the name Mary Celeste.",
+      "meaning": "The name combines the English Christian name Mary with celeste, from Latin caelestis ('heavenly').",
+      "first_use": "Re-registration as Mary Celeste, 1868"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "3:_MOST_LIKELY_EXPLANATION",
-      "type": "and crew character.",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ANOMALY",
+      "type": "Maritime mystery",
+      "subtype": "Abandoned (derelict) vessel",
+      "variant": "North Atlantic"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "phantom-ships", "name": "Phantom Ships", "relationship": "related", "description": "Broader maritime tradition of crewless or vanished vessels" },
+      { "id": "bermuda-triangle", "name": "Bermuda Triangle", "relationship": "similar", "description": "Sometimes invoked as a comparable disappearance, despite the Mary Celeste being far from the Triangle" },
+      { "id": "eilean-mor-lighthouse", "name": "Eilean Mor Lighthouse", "relationship": "similar", "description": "Another well-known unsolved disappearance of a small crew" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Brigantine rig", "description": "Two-masted brigantine of 282.28 gross tons after the 1872 refit (originally 198.42 tons)", "frequency": "always" },
+        { "feature": "Discovered under partial sail", "description": "When boarded by the Dei Gratia, Mary Celeste was making way under jib, fore-topmast staysail and lower fore-topsail; other sails were furled or missing", "frequency": "always" },
+        { "feature": "Missing yawl", "description": "The single ship's boat (a yawl) was missing from its chocks; the rail above appeared to have been deliberately cut", "frequency": "always" },
+        { "feature": "Water in hold", "description": "About 3.5 ft (1.1 m) of water in the hold — significant but not life-threatening for a vessel of her tonnage", "frequency": "always" }
+      ],
+      "morphology": "Wooden-hulled American brigantine of mid-19th-century North Atlantic merchant type."
     },
     "abilities": [],
     "behavior": {
       "activity_period": "unknown",
       "disposition": "unknown",
-      "habitat_preference": []
+      "social_structure": "unknown",
+      "habitat_preference": ["North Atlantic merchant routes"],
+      "patterns": [
+        "The case is a one-off historical event rather than a recurring phenomenon"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The events occurred in the central North Atlantic, with the abandonment somewhere east of the Azores. The ship was found at approximately 38°20′N 17°15′W, midway between the Azores and the Portuguese coast.",
+      "continents": ["North America", "Europe"],
+      "countries": ["United States", "Portugal", "Gibraltar (UK overseas)"],
+      "regions": ["North Atlantic Ocean", "Azores"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Discovery position",
+        "location": {
+          "description": "Mid-Atlantic, east of the Azores, between the islands and the Portuguese coast",
+          "country": "International waters",
+          "region": "North Atlantic",
+          "coordinates": { "latitude": 38.333, "longitude": -17.25 }
+        },
+        "peak_period": "1872-12-04",
+        "notes": "Position recorded in the Dei Gratia log when Mary Celeste was sighted and boarded"
+      },
+      {
+        "name": "Spencer's Island, Nova Scotia",
+        "location": {
+          "description": "Construction yard where the vessel was built and launched as Amazon in 1861",
+          "country": "Canada",
+          "region": "Nova Scotia",
+          "coordinates": { "latitude": 45.4, "longitude": -64.7 }
+        },
+        "peak_period": "1861",
+        "notes": "Launch on 18 May 1861 as Amazon; renamed Mary Celeste after 1868"
+      },
+      {
+        "name": "Gibraltar (Vice-Admiralty Court)",
+        "location": {
+          "description": "Gibraltar harbour, where the salvage hearings were held",
+          "country": "Gibraltar",
+          "region": "Gibraltar",
+          "coordinates": { "latitude": 36.14, "longitude": -5.35 }
+        },
+        "peak_period": "1872-12 to 1873-04",
+        "notes": "Salvage hearings before Attorney General Frederick Solly-Flood from 17 December 1872; salvage award £1,700 fixed in April 1873"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1872-12-04",
+        "circa": false,
+        "source": "Dei Gratia log; Vice-Admiralty Court of Gibraltar records"
+      },
+      "peak_activity_periods": [
+        { "period": "1872–1885", "description": "Original case (1872) through the deliberate wrecking of the vessel by Capt. Gilman C. Parker (1885)" },
+        { "period": "1884–present", "description": "Cultural afterlife following Arthur Conan Doyle's fictional 'J. Habakuk Jephson's Statement' (1884)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Mary Celeste case sits at the intersection of 19th-century North Atlantic merchant shipping and the Victorian taste for sea mysteries; her cultural legend was shaped largely by later fictional treatments rather than by the original record.",
+      "earliest_accounts": "Contemporary accounts in the Vice-Admiralty Court of Gibraltar from December 1872; press reports in the British and American maritime press from early 1873.",
+      "folklore_connections": "Linked into the wider tradition of 'ghost ships' (Flying Dutchman, Octavius) and into modern paranormal lore through works by Charles Fort and successors."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1861-05-18", "event": "Brigantine Amazon launched at Spencer's Island, Nova Scotia", "significance": "Construction of the vessel later known as Mary Celeste", "source": "Wikipedia, citing Hicks (2004) and Begg (2005)" },
+      { "date": "1868-01-01", "event": "Vessel sold to American owners and re-registered as Mary Celeste", "significance": "Renaming under U.S. flag", "source": "Wikipedia, citing Begg (2005)" },
+      { "date": "1872-11-05", "event": "Mary Celeste, under Captain Benjamin Spooner Briggs, departs New York for Genoa with 1,701 barrels of denatured alcohol", "significance": "Beginning of the fatal voyage", "source": "Wikipedia, citing court records" },
+      { "date": "1872-11-25", "event": "Final log entry on board Mary Celeste, recorded at 8 a.m.", "significance": "Last documented activity by the crew", "source": "Wikipedia, citing court records" },
+      { "date": "1872-12-04", "event": "Mary Celeste sighted by the Canadian brigantine Dei Gratia, Captain David Morehouse, and found abandoned at approximately 38°20′N 17°15′W", "significance": "Discovery of the abandoned vessel", "source": "Dei Gratia log; Vice-Admiralty Court of Gibraltar" },
+      { "date": "1872-12-13", "event": "Mary Celeste brought into Gibraltar by a Dei Gratia prize crew", "significance": "Beginning of the salvage process", "source": "Vice-Admiralty Court of Gibraltar" },
+      { "date": "1872-12-17", "event": "Salvage hearings open before Attorney General Frederick Solly-Flood", "significance": "Foul-play hypotheses explored but not substantiated", "source": "Vice-Admiralty Court of Gibraltar" },
+      { "date": "1873-04-08", "event": "Salvage award of £1,700 (about one fifth of the value of ship and cargo) determined", "significance": "Formal close of the salvage proceedings", "source": "Vice-Admiralty Court of Gibraltar" },
+      { "date": "1884-01-01", "event": "Arthur Conan Doyle publishes 'J. Habakuk Jephson's Statement' in the Cornhill Magazine", "significance": "Fictional account introduces the spelling 'Marie Celeste' and many enduring legendary embellishments", "source": "Cornhill Magazine, January 1884" },
+      { "date": "1885-01-03", "event": "Mary Celeste deliberately wrecked on the Rochelois Bank, Haiti, by Captain Gilman C. Parker as part of an insurance fraud", "significance": "Final fate of the vessel", "source": "Wikipedia, citing Hicks (2004)" }
+    ],
+    "modern_era": "Modern scholarship treats the abandonment as a panic decision in the face of a perceived but not actual emergency — most plausibly fears of an alcohol-vapour explosion or a misread sounding of the pumps. A 2006 experiment by University College London chemist Andrea Sella demonstrated that a deflagration of alcohol vapour in a sealed enclosure can produce a dramatic but relatively cool flame-front that leaves little soot, consistent with the absence of fire damage on the vessel."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
-      "verified": 0,
+      "total_documented": 1,
+      "verified": 1,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1872-12-04", "latest": "1872-12-13" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "mary-celeste-sighting-1872-discovery",
+        "name": "Discovery by the Dei Gratia",
+        "date": { "value": "1872-12-04", "precision": "exact" },
+        "location": {
+          "description": "Mid-Atlantic, between the Azores and the Portuguese coast, at approximately 38°20′N 17°15′W",
+          "country": "International waters",
+          "region": "North Atlantic",
+          "coordinates": { "latitude": 38.333, "longitude": -17.25, "precision": "approximate" }
+        },
+        "witnesses": { "count": 4, "types": ["Captain David Morehouse and officers of the Dei Gratia"], "credibility_factors": ["Documented in ship's log", "Sworn evidence in the Gibraltar Vice-Admiralty Court"] },
+        "description": "The Canadian brigantine Dei Gratia, on passage from New York to Gibraltar, sighted the Mary Celeste yawing erratically under partial sail. A boarding party led by First Mate Oliver Deveau found the ship abandoned, with the yawl missing, the binnacle damaged, ~3.5 ft of water in the hold, the chronometer and sextant absent, the cargo of denatured alcohol largely intact, and the last log entry dated 25 November.",
+        "conditions": { "weather": "Moderate seas, generally fair weather since the last log entry", "visibility": "Daylight", "time_of_day": "Afternoon", "duration": "Boarding and inspection took several hours" },
+        "evidence": ["Dei Gratia log", "Mary Celeste log (last entry 25 November 1872)", "Sworn testimony in the Vice-Admiralty Court of Gibraltar"],
+        "credibility": { "rating": "high", "factors": ["Multiple sworn witnesses", "Court record", "Physical vessel preserved through 1885"], "notes": "The discovery itself is solidly documented; only the cause of the abandonment is unresolved." },
+        "sources": ["Vice-Admiralty Court of Gibraltar (1872–1873)", "Fay, C. E. (1942), The Story of the Mary Celeste"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "mary-celeste-evidence-vessel",
+        "type": "vessel",
+        "name": "Mary Celeste hull and fittings",
+        "date": "1872-12",
+        "description": "The brigantine herself, examined at Gibraltar: hull seaworthy, partial sail set, ~3.5 ft of water in hold, missing yawl, intact cargo of 1,701 barrels of denatured alcohol (with nine barrels later found empty).",
+        "location": "Gibraltar harbour, December 1872",
+        "status": "verified",
+        "analysis": "Surveyed by Vice-Admiralty Court officers; no signs of struggle, fire, or piracy were found.",
+        "source": "Vice-Admiralty Court of Gibraltar (1872–1873)"
+      },
+      {
+        "id": "mary-celeste-evidence-log",
+        "type": "ship's log",
+        "name": "Mary Celeste log",
+        "date": "1872-11-25",
+        "description": "Ship's log of the Mary Celeste, with its last entry recorded at 8 a.m. on 25 November 1872, nine days before discovery.",
+        "status": "verified",
+        "analysis": "Provides the last known position of the ship; routine in tone and offering no warning of crisis.",
+        "source": "Vice-Admiralty Court of Gibraltar (1872–1873)"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "mary-celeste-evidence-court-record",
+        "type": "court record",
+        "name": "Gibraltar Vice-Admiralty Court records",
+        "date": "1872–1873",
+        "description": "Surveyor's reports, witness statements, and judgment of the salvage proceedings before Attorney General Frederick Solly-Flood.",
+        "status": "verified",
+        "analysis": "Foul-play hypotheses were proposed but unsupported by physical evidence; salvage award of £1,700 was made in April 1873.",
+        "source": "Vice-Admiralty Court of Gibraltar"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Sea-monster or supernatural cause",
+        "description": "Popular and pulp-era theories invoked sea-monsters, ghost-ship contagion, or alien abduction to account for the disappearance of the entire complement.",
+        "proponents": [],
+        "evidence_cited": ["Absence of any conventional explanation accepted at the time of the original hearings"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Alcohol-vapour scare",
+        "description": "Heating in the hold caused some of the 1,701 barrels of denatured alcohol to leak; an apparent rumble or flash from the hatches led Captain Briggs to order the ship abandoned in the yawl pending the danger passing. The yawl was then lost in heavy weather or its tether parted.",
+        "proponents": ["Conrad Byers", "Andrea Sella"],
+        "evidence_cited": ["Nine of the 1,701 barrels were found empty in Genoa", "2006 UCL deflagration experiment by Andrea Sella showing a relatively cool flame-front consistent with the absence of soot or burn marks"]
+      },
+      {
+        "name": "Faulty pump and fear of foundering",
+        "description": "The ship's pump had been dismantled for cleaning shortly before abandonment; with the chain hold-pump unable to give a sounding and ~3.5 ft of water already in the hold, Briggs feared imminent foundering and abandoned ship in the yawl.",
+        "proponents": ["Oliver Cobb", "Paul Begg"],
+        "evidence_cited": ["Pump dismantled in the hold when boarded", "Sounding rod found on deck", "About 3.5 ft of water in the hold"]
+      },
+      {
+        "name": "Waterspout or seaquake",
+        "description": "A waterspout or seaquake caused enough water to enter the hold and rigging damage that Briggs believed the ship was foundering and ordered abandonment.",
+        "proponents": ["James Briggs (a relative)"],
+        "evidence_cited": ["Damage to rigging consistent with squall conditions", "Water in hold that may have appeared sudden"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "No mystery — ordinary panicked abandonment",
+        "description": "Despite the fictionalised cultural afterlife, the archival record supports a mundane explanation: a misjudged decision by an experienced captain in the face of a perceived emergency, followed by loss of the yawl in heavy weather.",
+        "proponents": ["Charles Edey Fay", "Paul Begg", "Brian Hicks"],
+        "evidence_cited": ["No physical evidence of struggle, fire, or piracy", "Cargo and personal effects largely intact", "Court verdict explicitly rejected foul-play theories"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
       "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "stories": [
+        "Arthur Conan Doyle's 'J. Habakuk Jephson's Statement' (Cornhill Magazine, January 1884)",
+        "Subsequent pulp and tabloid embellishments throughout the 20th century"
+      ],
+      "beliefs": "The Mary Celeste's modern cultural status as the archetypal 'ghost ship' is largely a 20th-century construction; the historical record itself supports an unromantic, mundane reading."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "'J. Habakuk Jephson's Statement' — Arthur Conan Doyle (1884)",
+        "The Story of the Mary Celeste — Charles Edey Fay (1942)",
+        "Mary Celeste: The Greatest Mystery of the Sea — Paul Begg (2005)",
+        "Ghost Ship: The Mysterious True Story of the Mary Celeste and Her Missing Crew — Brian Hicks (2004)"
+      ],
+      "film_tv": [
+        "The Mystery of the Mary Celeste (1935)",
+        "Smithsonian Channel documentaries on the case",
+        "Doctor Who: 'The Chase' (1965, episode 'Flight Through Eternity')"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Used as a generic noun ('a Mary Celeste') for any inexplicably abandoned premises in British and American journalism"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Charles Edey Fay", "affiliation": "Independent maritime historian", "contribution": "First major archival reconstruction of the case (1942)", "period": "1940s" },
+      { "name": "Paul Begg", "affiliation": "Independent author", "contribution": "Modern critical reassessment of the legends versus the records", "period": "2000s" },
+      { "name": "Brian Hicks", "affiliation": "Charleston Post & Courier (journalist)", "contribution": "Narrative history Ghost Ship (2004)", "period": "2000s" },
+      { "name": "Andrea Sella", "affiliation": "University College London (chemistry)", "contribution": "2006 experimental work on alcohol-vapour deflagration as an explanation for the abandonment", "period": "2006" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No active investigation; the case is treated as historically closed but unresolved."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "fay-1942", "type": "book", "title": "The Story of the Mary Celeste", "authors": ["Charles Edey Fay"], "publication": "Salem, MA: Peabody Museum", "date": "1942" },
+    { "id": "begg-2005", "type": "book", "title": "Mary Celeste: The Greatest Mystery of the Sea", "authors": ["Paul Begg"], "publication": "Pearson Longman", "date": "2005", "isbn": "978-0582782259" },
+    { "id": "hicks-2004", "type": "book", "title": "Ghost Ship: The Mysterious True Story of the Mary Celeste and Her Missing Crew", "authors": ["Brian Hicks"], "publication": "Ballantine Books", "date": "2004", "isbn": "978-0345466662" },
+    { "id": "doyle-1884", "type": "article", "title": "J. Habakuk Jephson's Statement", "authors": ["Arthur Conan Doyle"], "publication": "Cornhill Magazine", "date": "1884-01" },
+    { "id": "wikipedia-mary-celeste", "type": "website", "title": "Mary Celeste", "url": "https://en.wikipedia.org/wiki/Mary_Celeste", "publication": "Wikipedia", "accessed": "2026-05-07" }
+  ]
 }
